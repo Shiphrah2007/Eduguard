@@ -1,0 +1,52 @@
+# IDE / Editor
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Frontend (React / Vite)
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.local
+frontend/.npm
+frontend/coverage/
+
+# Backend (Java / Spring Boot / Maven)
+backend/**/target/
+backend/**/*.jar
+backend/**/*.war
+backend/**/*.nar
+backend/**/*.ear
+backend/**/*.zip
+backend/**/*.tar.gz
+backend/**/*.rar
+backend/**/.mvn/wrapper/maven-wrapper.jar
+
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+*.p12
+*.jks
+
+# Logs
+logs/
+*.log
+
+# Database
+database/**/*.sqlite
+database/**/*.db
